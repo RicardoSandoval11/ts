@@ -1,0 +1,5 @@
+
+- Con el siguiente comando se inicia un proyecto => package.json
+- Con el siguiente comando se puede instalar express => npm install express --save
+- Para aquellas librerias que no contengan una implementacion nativa de typescript, 
+  podemos instalar sus tipos como en el siguiente ejemplo: npm i --save-dev @types/express

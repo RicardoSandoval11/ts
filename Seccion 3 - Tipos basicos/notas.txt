@@ -1,0 +1,14 @@
+
+* Los tipos de datos disponibles de typescript son: primitimos y compuestos.
+    * Primitivos: String, NUmber, Boolean, Symbol.
+    * Compuestos: objetos literales, funciones, clases, arreglos.
+* El tipo symbol se utiliza para garantizar que un objeto tiene esa propiedad como unica.
+* Cuando creamos una constante, el tipo de la variable es el valor que le asignemos.
+* Una funcion anonima autoinvocada es aquella que no tiene nombre y se invoca cuando se declara. Su sintaxis es la siguiente:
+
+(() => {
+
+})()
+
+* Las funciones anonimas autoinvocadas sirven para evitar que las variables tengan un scope global y se limiten unicamente al archivo en el cual se estan declarando osea dentro de la funcion.
+* 

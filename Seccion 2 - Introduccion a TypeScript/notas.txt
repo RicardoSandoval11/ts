@@ -1,0 +1,11 @@
+
+* El archivo tsconfig es un archivo que nos permite colocar 
+  de alguna manera reglas de typescrypt como evitar any 
+  implicitos.
+* Cuando se tiene el archivo tsconfig, ya no es necesario 
+  especificar el archivo a transpilar, ya que seleccionara 
+  todos los archivos que cumplan con los requerimientos para 
+  generar un unico archivo compilado.
+* Con el comando 'tsc --watch' podemos mantener transpilando 
+  los cambios que realicemos en nuestros archivos .ts
+* 
